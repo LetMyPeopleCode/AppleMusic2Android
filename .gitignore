@@ -132,6 +132,7 @@ dist
 # app specific
 Library.xml
 playlists.json
+playlistsfull.json
 AM2A/*
 
 .DS_Store

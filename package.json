@@ -1,6 +1,6 @@
 {
-  "name": "syncplaylist",
-  "version": "0.0.1",
+  "name": "AppleMusic2Android",
+  "version": "0.1.0",
   "description": "An app to sync Apple Music playlists for local files with an Android Phone",
   "main": "index.js",
   "scripts": {
