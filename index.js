@@ -19,7 +19,7 @@ main();
 async function main(){
   let prelim = await analyze();
   if(args[0] === "analyze"){
-    let lists = await JSON.stringify(playlist_list);
+    let lists = await JSON.stringify(playlist_list, null, 4);
     fs.writeFileSync("./playlists.json", lists);
     console.log("File analyzed, lists in playlists.json");
     process.exit(1)
@@ -40,7 +40,7 @@ async function analyze(){
     songs = await extractSongs(presongs);
     let lists = result.plist.dict[0].array[0].dict; 
     playlist_list = await extractListNames(lists); 
-    playlists = await extractListvals(lists); console.dir(playlists);
+    playlists = await extractListvals(lists);
   })
   return true;
 }
