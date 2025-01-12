@@ -3,13 +3,13 @@
 Syncs local music files and playlists from Apple Music to your Android
 
 ### **Who It's For:**
-People with large collections of MP3s who keep them locally on their Mac, organized them into playlists, who want to sync their Android phone and its music player by copying over the playlists and the songs in them.
+People with large collections of MP3s who keep them locally on their Mac, organize them into playlists using Apple Music, and want to sync their Android phone and its music player by copying over the playlists and the song files in them to their Android phone.
 
 ### **How it works:**
-When you tell it to do an export, it *copies* every song you're going to transfer to your specified folder and then creates an .m3u format playlist file.
+When you tell it to do an export of selected playlists, it *copies* every song you're going to transfer to a specified folder and then creates an .m3u format playlist file.
 
 ### **Then what?**
-Use your favorite method to copy that export folder into your phone's Music folder.
+Use your favorite method to copy that export folder into your phone's Music folder. Your music player app should find the songs and playlists.
 
 ## V0.0.1
 
