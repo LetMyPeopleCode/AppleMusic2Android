@@ -8,12 +8,12 @@ People with large collections of MP3s who keep them locally on their Mac, organi
 ### **How it works:**
 When you tell it to do an export of a playlist, it *copies* every song you're going to transfer to a specified folder and then creates an .m3u format playlist file. 
 
-Copy that folder (keeping all the songs and playlists in it) into your phone's music folder using a program like [OpenMTP](https://openmtp.ganeshrvel.com/)), and your music player on Android should pick it up. 
+Copy that folder (keeping all the songs and playlists in it) into your phone's music folder using a program like [OpenMTP](https://openmtp.ganeshrvel.com/), and your music player on Android should pick it up. 
 
 So far that's only been tested with Pulsar and VLC on a OnePlus 13, but it worked great in both instances at having the songs and playlists get automatically detected and imported.
 
 ### Installation
-REQUIRED: [Node.js](https://nodejs.org/en)), this has only been tested with 18.71, but it uses very simple API calls, has 2 NPM dependencies (that install a total of 4 packages), and should have decent backward/forward compatibility.
+REQUIRED: [Node.js](https://nodejs.org/en), this has only been tested with 18.71, but it uses very simple API calls, has 2 NPM dependencies (that install a total of 4 packages), and should have decent backward/forward compatibility.
 
 - Clone this repository from Github
 - Go into the directory it was copied into and run the command `npm install` in the console.
